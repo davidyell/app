@@ -27,10 +27,10 @@ configuration relevant for your application.
 
 ## What's included
 A number of plugins are included by default.
-* friendsofcake/crud
-* davidyell/proffer
-* friendsofcake/bootstrap-ui
-* muffin/slug
+* [friendsofcake/crud](https://github.com/FriendsOfCake/crud)
+* [davidyell/proffer](https://github.com/davidyell/CakePHP3-Proffer)
+* [friendsofcake/bootstrap-ui](https://github.com/FriendsOfCake/bootstrap-ui)
+* [muffin/slug](https://github.com/UseMuffin/Slug)
 
 Included cache configs
 * 30min - 30 minutes
