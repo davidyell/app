@@ -111,6 +111,43 @@ return [
             'serialize' => true,
             'duration' => '+2 minutes',
         ],
+
+        '30min' => [
+            'className' => 'File',
+            'prefix' => 'pofo_',
+            'path' => CACHE,
+            'serialize' => true,
+            'duration' => '+30 minutes'
+        ],
+        'hour' => [
+            'className' => 'File',
+            'prefix' => 'pofo_',
+            'path' => CACHE,
+            'serialize' => true,
+            'duration' => '+1 hour'
+        ],
+        'short' => [
+            'className' => 'File',
+            'prefix' => 'pofo_',
+            'path' => CACHE,
+            'serialize' => true,
+            'duration' => '+3 hours'
+        ],
+        'halfday' => [
+            'className' => 'File',
+            'prefix' => 'pofo_',
+            'path' => CACHE,
+            'serialize' => true,
+            'duration' => '+12 hours'
+        ],
+        'day' => [
+            'className' => 'File',
+            'prefix' => 'pofo_',
+            'path' => CACHE,
+            'serialize' => true,
+            'duration' => '+24 hours'
+        ],
+
     ],
 
     /**

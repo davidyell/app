@@ -97,7 +97,7 @@ mb_internal_encoding(Configure::read('App.encoding'));
  * Set the default locale. This controls how dates, number and currency is
  * formatted and sets the default language to use for translations.
  */
-ini_set('intl.default_locale', 'en_US');
+ini_set('intl.default_locale', 'en_GB');
 
 /**
  * Register application error and exception handlers.
@@ -187,6 +187,11 @@ Plugin::load('Migrations');
 if (Configure::read('debug')) {
     Plugin::load('DebugKit', ['bootstrap' => true]);
 }
+
+Plugin::load('Muffin/Slug');
+Plugin::load('Crud');
+Plugin::load('BootstrapUI');
+Plugin::load('Proffer', ['bootstrap' => true]);
 
 /**
  * Connect middleware/dispatcher filters.
